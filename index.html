@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hazron Rai | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#home" class="logo">HAZRON<span>.RAI</span></a>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#music">Music & Hobbies</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE 1: HOME -->
+    <section id="home" class="page">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="tagline">PORTFOLIO</p>
+          <h1 class="hero-title">Welcome to My Personal Space</h1>
+          <p class="hero-desc">
+            I'm <strong>Hazron Rai</strong>, a 1st semester BCA student with a passion for web technology, playing instruments, and singing.
+          </p>
+          <div>
+            <a href="#about" class="btn">Explore Profile</a>
+            <a href="#contact" class="btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-img-box">
+          <img src="hazron.jpg" alt="Hazron Rai" class="profile-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 2: ABOUT -->
+    <section id="about" class="page">
+      <h1 class="page-title">About Me</h1>
+      <p class="page-subtitle">Personal Background</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="about-header">
+            <img src="hazron.jpg" alt="Hazron Rai" class="avatar-sm">
+            <h3>Biography</h3>
+          </div>
+          <p style="color: var(--text-muted); margin-top: 1rem;">
+            My name is Hazron Rai. I am currently studying in the 1st semester of Bachelor of Computer Applications (BCA). I enjoy working on web development projects and exploring creative passions like musical performance.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Key Details</h3>
+          <ul class="info-list">
+            <li><strong>Degree:</strong> BCA (1st Semester)</li>
+            <li><strong>Email:</strong> hazronb_rai@srmus.edu.in</li>
+            <li><strong>Interests:</strong> Coding, Music, Singing</li>
+            <li><strong>Focus:</strong> HTML5 & CSS3 Page Design</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3: MUSIC & HOBBIES -->
+    <section id="music" class="page">
+      <h1 class="page-title">Hobbies & Passions</h1>
+      <p class="page-subtitle">Musical Interests</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>🎸 Playing Instruments</h3>
+          <p style="color: var(--text-muted); margin-top: 0.8rem;">
+            I enjoy practicing and playing musical instruments during my free time, experimenting with acoustic melodies and standard rhythmic chords.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🎤 Singing</h3>
+          <p style="color: var(--text-muted); margin-top: 0.8rem;">
+            Vocal practice is another huge hobby of mine. I enjoy singing various styles of music alongside my instrumental playing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: ACADEMICS -->
+    <section id="academics" class="page">
+      <h1 class="page-title">Academics & Skills</h1>
+      <p class="page-subtitle">Current Course Progress</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Course Information</h3>
+          <p style="color: var(--text-muted); margin-top: 0.8rem;"><strong>Program:</strong> Bachelor of Computer Applications (BCA)</p>
+          <p style="color: var(--text-muted);"><strong>Semester:</strong> 1st Semester</p>
+          <p style="color: var(--text-muted); margin-top: 0.8rem;">Currently building foundational skills in web development, computing principles, and problem solving.</p>
+        </div>
+
+        <div class="card">
+          <h3>Tech Skills</h3>
+          
+          <div class="skill-bar">
+            <div class="bar-title"><span>HTML5</span><span>Structured Markup</span></div>
+            <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="bar-title"><span>CSS3</span><span>Styling & Layouts</span></div>
+            <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 5: CONTACT -->
+    <section id="contact" class="page">
+      <h1 class="page-title">Contact Me</h1>
+      <p class="page-subtitle">Get In Touch</p>
+
+      <div class="card contact-card">
+        <div class="email-badge">
+          📧 Direct Email: <a href="mailto:hazronb_rai@srmus.edu.in">hazronb_rai@srmus.edu.in</a>
+        </div>
+
+        <form action="mailto:hazronb_rai@srmus.edu.in" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="Name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="Email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea name="Message" rows="4" placeholder="Type your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Hazron Rai | Built with HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
